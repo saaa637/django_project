@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    .btn:hover {
+  transform: scale(1.08);
+  transition: 0.2s;
+  }
+  .em{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+  }
+  .btn{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-top: 5px;
+  }
+  body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-corporate-culture-employee-style-poster-background-material-image_125216.jpg');
+     background-repeat: no-repeat;          /* don't tile the image */
+  background-size: cover;               /* scale to fully cover element */
+  background-position: center center;   /* keep image centered */
+  background-attachment: fixed;         /* optional: parallax / fixed bg */
+  background-color: #111;               /* fallback color while image loads */
+  min-height: 100vh;
+  }
+  </style>
+</head>
+<body class="container mt-4" >
+
+<center><h2>Employee Management System</h2><hr></center>
+
+
+<div classs="em">
+  <span><a class="btn btn-primary" href="/view_emp">View Employees</a></span>
+  <span><a class="btn btn-success" href="/add_emp">Add Employee</a></span>
+  <span><a class="btn btn-danger" href="/remove_emp">Remove Employee</a></span>
+  <span><a class="btn btn-warning" href="/filter_emp">Filter Employee</a></span>
+</div>
+
+
+</body>
+</html>
